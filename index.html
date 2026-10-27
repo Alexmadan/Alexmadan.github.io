@@ -28,7 +28,8 @@
             margin-bottom: 25px;
         }
         .lang-badge {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
             background-color: #e0e7ff;
             color: #3730a3;
             padding: 5px 12px;
@@ -36,7 +37,12 @@
             font-size: 14px;
             font-weight: bold;
             margin-bottom: 15px;
-            text-transform: uppercase;
+        }
+        .flag-icon {
+            width: 20px;
+            height: auto;
+            margin-right: 8px;
+            border-radius: 2px;
         }
         h1 {
             color: #2c3e50;
@@ -69,7 +75,9 @@
     <div class="card">
         <!-- РУМЫНСКИЙ БЛОК -->
         <div class="lang-section">
-            <span class="lang-badge">🇲🇩 RO/MD</span>
+            <span class="lang-badge">
+                <img src="https://flagcdn.com/w40/md.png" alt="Moldova" class="flag-icon"> RO/MD
+            </span>
             <h1>Bună! Sunt Alexandru.</h1>
             <p>Realizez site-uri de prezentare pentru afaceri mici.</p>
             <p>Portofoliu: <a href="https://alexmadan.github.io/Frosimport/" target="_blank">Site Frosimport</a></p>
@@ -79,7 +87,9 @@
 
         <!-- РУССКИЙ БЛОК -->
         <div class="lang-section">
-            <span class="lang-badge">🇷🇺 RU</span>
+            <span class="lang-badge">
+                <img src="https://flagcdn.com/w40/ru.png" alt="Russia" class="flag-icon"> RU
+            </span>
             <h1>Привет! Я Александр.</h1>
             <p>Делаю сайты-визитки для малого бизнеса.</p>
             <p>Мои работы: <a href="https://alexmadan.github.io/Frosimport/" target="_blank">Сайт Frosimport</a></p>
